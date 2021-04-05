@@ -1,0 +1,20 @@
+{
+  "name": "rklipach/link-shortifier",
+  "description": "Tool for generation of short-links",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Roman Klipach",
+      "email": "klipach.roman@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.1",
+    "ext-json": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/"
+    }
+  }
+}
